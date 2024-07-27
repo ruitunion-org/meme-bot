@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictPropertyInitialization": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true,
+    /* Emit */
+    "outDir": ".build",
+    "removeComments": true,
+    "target": "ES5",
+    /* JS */
+    "checkJs": false,
+    "allowJs": true,
+    /* Watch */
+    "preserveWatchOutput": true,
+    /* Modules */
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "node"
+  },
+  "include": ["src", "global.d.ts"]
+}
