@@ -3,15 +3,17 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "tsc --watch",
+    "dev": "tsx watch src/main.ts",
     "start": ""
   },
   "dependencies": {
     "dotenv": "16.4.5",
-    "grammy": "1.27.0"
+    "grammy": "1.27.0",
+    "sqlite3": "5.1.7"
   },
   "devDependencies": {
-    "@types/node": "^20.14.12",
+    "@types/node": "20.14.12",
+    "tsx": "4.16.2",
     "typescript": "5.5.4"
   },
   "engines": {
