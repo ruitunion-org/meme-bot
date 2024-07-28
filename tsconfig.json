@@ -20,7 +20,7 @@
     /* Emit */
     "outDir": ".build",
     "removeComments": true,
-    "target": "ES5",
+    "target": "ES2023",
     /* JS */
     "checkJs": false,
     "allowJs": true,
