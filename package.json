@@ -3,8 +3,7 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "dev": "tsx watch src/main.ts",
-    "start": ""
+    "start": "tsx watch src/main.ts"
   },
   "dependencies": {
     "dotenv": "16.4.5",

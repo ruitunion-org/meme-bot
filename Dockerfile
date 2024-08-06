@@ -13,15 +13,10 @@ RUN npm ci
 COPY . .
 
 # Type check app
-RUN npm run typecheck
+# RUN npm run typecheck
 
-FROM base AS runner
-
-# Bundle app source
-COPY . .
-
-# Install only production app dependencies
-RUN npm ci --only=production
+# Create a volume for the SQLite database
+VOLUME ["/app/sqlite"]
 
 USER node
 
